@@ -1,5 +1,5 @@
-// Napisz funkcjê, która dostaje jako argumenty tablicê dwuwymiarow¹ 
-//i odwraca kolejnoœæ elementów we wszystkich wierszach otrzymanej tablicy.
+// Napisz funkcjÃª, ktÃ³ra dostaje jako argumenty tablicÃª dwuwymiarowÂ¹ 
+//i odwraca kolejnoÅ“Ã¦ elementÃ³w we wszystkich wierszach otrzymanej tablicy.
 
 #include <stdio.h>
 void odwraca(int t[][2]); 
@@ -33,7 +33,7 @@ void odwraca(int t[][2]) {
 void w(int t[][2]) {
 	int i, j;
 		
-	for (i = 0; i < 4; i++) // Wyœwietla elementy tablicy.
+	for (i = 0; i < 4; i++) // WyÅ“wietla elementy tablicy.
 		for (j = 0; j < 2; j++)
 			printf("%d\t", t[i][j]);
 			
